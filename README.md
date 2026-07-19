@@ -1,2 +1,5 @@
-# NOX
-es un motor de inteligencia sobre amenazas cibernéticas diseñado específicamente para operadores que requieren velocidad, seguridad operativa y profundidad en un marco único y coherente. No se trata de una capa adicional sobre herramientas existentes, sino de una plataforma de inteligencia totalmente asíncrona, basada en complementos
+NOX es un motor de inteligencia sobre amenazas cibernéticas enferñado específicamente para operadores que requieren velocidad, seguridad operativa y profundidad en un marco único y coherente. No se trata de una capacidad adicional sobre herramientos existentes, sino de una plataforma de inteligencia totalamente asíncrona, basada en complementos, con una restricción separación entre la lógica de ejecución y las definiciones de origen.
+
+NOX opera bajo una restricción separación de responsabilidades: nox.pyes un motor de ejecución puro y agnóstico ; maneja E/S asíncrona, huella digital JA3, administración de sesiones SSL, pivote recursivo y correlación de resultados. No contiene lógica de inteligencia codificada.
+
+Toda la inteligencia se define como complementos JSONsources/ . Estos complementos son la única fuente de información fidedigna sobre las consultas que realiza NOX, su autenticación y la información que extrae. La herramienta de compilación build_sources.pyes la única forma autorizada de crearlos o modificarlos.
