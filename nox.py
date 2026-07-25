@@ -4250,7 +4250,7 @@ class REPL:
     ██║ ╚████║╚██████╔╝██╔╝ ██╗
     ╚═╝  ╚═══╝ ╚═════╝ ╚═╝  ╚═╝
 {C.W}
-    Cyber Threat Intelligence Framework  {C.Y}v{VERSION}{C.W}
+    Cyber Threat Intelligence Framework | ZON33XY TEAM {C.Y}v{VERSION}{C.W}
     {C.DM}120+ JSON plugin sources | Async Core | Pivot Engine | JA3 TLS | HVT Detection{C.W}
     {opsec_label}
 """)
